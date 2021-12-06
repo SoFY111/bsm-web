@@ -34,3 +34,35 @@ var myPieChart = new Chart(ctx, {
     cutoutPercentage: 80,
   },
 });
+
+// Akademik Birim Sayıları
+var ctx = document.getElementById("akademikBirimSayilari");
+var myPieChart = new Chart(ctx, {
+  type: 'doughnut',
+  data: {
+    labels: ['Fakülte', 'Meslek Yüksekokulu', 'Yüksekokul', 'Estitü', 'Araştırma Merkezi'],
+    datasets: [{
+      data: [18, 16, 3, 4, 13],
+      backgroundColor: ['#F56954', '#00A65A', '#F39C12', '#00C0EF', '#3C8DBC'],
+      hoverBackgroundColor: ['#db5d4b', '#009652', '#d6890f', '#02b3de', '#367ea8'],
+      hoverBorderColor: "rgba(234, 236, 244, 1)",
+    }],
+  },
+  options: {
+    maintainAspectRatio: false,
+    tooltips: {
+      backgroundColor: "rgb(255,255,255)",
+      bodyFontColor: "#858796",
+      borderColor: '#dddfeb',
+      borderWidth: 1,
+      xPadding: 15,
+      yPadding: 15,
+      displayColors: false,
+      caretPadding: 10,
+    },
+    legend: {
+      display: false
+    },
+    cutoutPercentage: 80,
+  },
+});

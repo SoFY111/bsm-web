@@ -855,6 +855,11 @@ button {
      transform: scale(1.1);
 }
 
+.m-man-8px{
+     margin: 8px;
+}
+
+
 /** end footer **/
 
 @media only screen and (min-width: 1200px) {
@@ -874,8 +879,20 @@ button {
      }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 970px) {
+@media only screen and (min-width: 767px) and (max-width: 991px) {
      .mt-100{
           margin-top: 100px !important;
+     }
+     .col-man-md-6 {
+          -ms-flex: 0 0 calc(50% - 48px);
+          flex: 0 0 calc(50% - 48px);
+          max-width: calc(50% - 48px);
+          }
+}
+
+@media only screen and (min-width: 992px) {
+     .col-man-lg-4{
+          flex: 0 0 calc(33.333333% - 48px);
+          max-width: calc(33.333333% - 48px);
      }
 }
