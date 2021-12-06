@@ -369,10 +369,6 @@ button {
      width: 100%;
 }
 
-.text-bg .read_more {}
-
-.text-bg .read_more:hover {}
-
 .titlepage {
      text-align: center;
      padding-bottom: 60px;
@@ -859,6 +855,13 @@ button {
      margin: 8px;
 }
 
+.verticalAlignMan{
+     top:25%;
+     left: 0;
+     right: 0;
+     position: relative;
+}
+
 
 /** end footer **/
 
@@ -895,4 +898,13 @@ button {
           flex: 0 0 calc(33.333333% - 48px);
           max-width: calc(33.333333% - 48px);
      }
+}
+
+@media only screen and (max-width: 575px) {
+     .verticalAlignMan{
+          top:1%;
+          left: 0;
+          right: 0;
+          position: relative;
+     }     
 }
