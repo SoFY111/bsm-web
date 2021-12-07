@@ -103,167 +103,35 @@
       <!-- end header -->
       
       <!-- CONTAINER -->
-      <div class="container mb-5 d-flex flex-column">
-        <!-- TOPLAM ÖĞRENCİ -->
-        <div class="mb-4">
-            <h4 class="" style="border-bottom: 1px solid rgba(0,0,0, .3);">Toplam Öğrenci Sayısı</h4>
-            <div class="">
-                <!-- Area Chart -->
-                <div class=" shadow mb-4">
-                    <div class="p-3">
-                        <div class="chart-area">
-                            <canvas id="myAreaChart" style="height: 250px"></canvas>
-                        </div>
-                    </div>
-                <small class="d-flex justify-content-end pb-2 pr-2">Veriler resmi değildir.</small>
-                </div>
-            </div>
-        </div>
-        <!-- TOPLAM ÖĞRENCİ -->
-
-        <!-- AKADEMİK PERSONEL -->
-        <div class="mb-5">
-            <h4 class="" style="border-bottom: 1px solid rgba(0,0,0, .3);">Akademik Personel Sayısı</h4>
-            <div class="shadow p-3">
-                <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-center align-content-center">
-                    <div class="left-side col-12 col-md-6 col-lg-6 mt-2">
-                        <div class="manuelChart">
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Profesör</label>
-                                    <span class="pr-2">306</span>                                 
-                                    <!-- <span class="pr-2">13%</span> -->                          
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:13%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Doçent</label>
-                                    <span class="pr-2">223</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:10%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Dr. Öğr. Üyesi</label>
-                                    <span class="pr-2">469</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:20%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Öğretim Görevlisi</label>
-                                    <span class="pr-2">463</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:20%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Araştırma Görevlisi</label>
-                                    <span class="pr-2">877</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:37%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-lg-end mt-1 pr-2"><span>Toplam: 2338</span></div>
-                        </div>
-                    </div>
-                    <div class="right-side col-12 col-md-6 col-lg-6 mt-2">
-                        <div class="chart-pie pt-4" style="height: 250px;">
-                            <canvas id="myPieChart" style="height: 250px;"></canvas>
-                        </div>
-                    </div>                
-                </div>
-            </div>
-
-        </div>
-        <!-- AKADEMİK PERSONEL -->
-
-        <!-- AKADEMİK BİRİM SAYILARI -->
-        <div class="mb-5">
-            <h4 class="" style="border-bottom: 1px solid rgba(0,0,0, .3);">Akademik Birim Sayıları</h4>
-            <div class="shadow p-3">
-                <div class="d-flex flex-column flex-md-row flex-lg-row justify-content-center align-content-center">
-                    <div class="left-side col-12 col-md-6 col-lg-6 mt-2">
-                        <div class="manuelChart">
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Fakülte</label>
-                                    <span class="pr-2">18</span>                                 
-                                    <!-- <span class="pr-2">13%</span> -->                          
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:32%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Meslek Yüksekokulu</label>
-                                    <span class="pr-2">16</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:30%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Yüksekokul</label>
-                                    <span class="pr-2">3</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:5%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Enstitü</label>
-                                    <span class="pr-2">4</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:7%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row1">
-                                <div class="d-flex align-items-center align-content-center justify-content-between mt-2">
-                                    <label class="mb-0">Araştırma Merkezi</label>
-                                    <span class="pr-2">13</span>                                
-                                </div>
-                                <div class="chartContainer " style="height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #e5e5e5fa">
-                                    <div class="position-relative"style="width:23%;height: 12px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: #009933">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-lg-end mt-1 pr-2"><span>Toplam: 56</span></div>
-                        </div>
-                    </div>
-                    <div class="right-side col-12 col-md-6 col-lg-6 mt-2">
-                        <div class="chart-pie pt-4" style="height: 250px;">
-                            <canvas id="akademikBirimSayilari" style="height: 250px;"></canvas>
-                        </div>
-                    </div>                
-                </div>
-            </div>
-
-        </div>
-        <!-- AKADEMİK BİRİM SAYILARI -->
+      <div class="container d-flex flex-wrap flex-column align-content-center align-items-center" style="height: calc(100vh - 133px);">
+        <!--CONTENT-->
+           <div class="d-flex flex-row  verticalAlignMan" style="text-align: center;">
+               <div class="mr-2">
+                    <h2 >Bölüm Olanakları</h2>
+                    <ul>
+                        <li>Yazılım Geliştirme Laboratuvarı(YG Lab)</li>
+                        <li>Bilgisayar Ağları ve Sanal Gerçeklik Laboratuvarı</li>
+                        <li>Bilişim Teknolojileri Laboratuvarı (BT Lab)</li>
+                        <li>Hesaplamalı Nanoteknoloji Laboratuvarı</li>
+                        <li>Multimedya Uygulama Geliştirme Laboratuvarı (MADLab)</li>
+                        <li>Büyük Veri ve Bulut Bilişim Araştırma Laboratuvarı</li>
+                        <li>Makine Öğrenmesi ve Duygu Analizi Laboratuvarı (MacSent)</li>
+                        <li>Elektronik Laboratuvarı</li>
+                    </ul>                    
+               </div>
+               <div class="ml-2">
+                <h2>Bölüm Bilgiliri</h2>
+                <ul>
+                    <li>Eğitim Dili: Türkçe</li>
+                    <li>Eğitim Süresi: 4 Yıl</li>
+                    <li>Tezli/Tezsiz Yüksek Lisans: Var /Var</li>
+                    <li>Doktora: Başvuru aşaması</li>
+                    <li>Çift Anadal Programı Biyomedikal Müh., Matematik, Fizik bölümleri</li>
+                    <li>Erasmus+ Öğrenim Hareketliliği: 4 ülke ile anlaşma var</li>
+                </ul>                    
+           </div>
+           </div>
+        <!--CONTENT-->
       </div>
       <!--CONTAINER-->
       
@@ -410,10 +278,6 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
-      <script src="js/chart.js/Chart.min.js"></script>
-      <script src="js/chart-bar-demo.js"></script>
-      <script src="js/chart-area-demo.js"></script>
-      <script src="js/chart-pie-demo.js"></script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
